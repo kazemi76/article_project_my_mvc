@@ -6,10 +6,8 @@ Class Pages extends Controller{
     }
     public function index(){
         // $this->model('articel')
-        $data=[
-            'title'=>'hello'
-        ];
-        $this->view('pages/index/', $data);
+        
+        $this->view('pages/index');
 
     }
 
@@ -18,7 +16,6 @@ Class Pages extends Controller{
         $data=[
             'title'=>'hello'
         ];
-        $this->view('pages/about/', $data);
-
+        $this->view('pages/about', $data);
     }
 }

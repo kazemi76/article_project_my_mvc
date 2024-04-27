@@ -5,9 +5,9 @@
 define("DB_HOST","localhost");
 define("DB_USER","root");
 define("DB_PASS","");
-define("DB_NAME","MVC_framework");
+define("DB_NAME","articlemvc");
 
 
-define('APPROOT',dirname(__DIR__));
-define('URLROOT','http://localhost/MVC_framework/');
-define('SITENAME','MVC_framework');
+define('APPROOT','C:/xampp/htdocs/article_my_mvc/app');
+define('URLROOT','http://localhost/article_my_mvc');
+define('SITENAME','article_my_mvc');
